@@ -2,14 +2,13 @@
 title: markdown syntax
 author: ramraid
 date: 2024-02-24 20:30:00 +0800
-categories: [Blogging]
+categories: [Markdown]
 tags: [writing]
 math: true
-mermaid: false
 image:
     path: /assets/img/cat.png
     alt: 블로그 이사 :/
-# render_with_liquid: false
+render_with_liquid: false
 pin: false
 ---
 

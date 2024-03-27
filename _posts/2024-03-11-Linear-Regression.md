@@ -2,13 +2,13 @@
 title: Linear Regression
 author: ramraid
 date: 2024-03-11 20:00:00 +0800
-categories: [Machine Learning]
+categories: [Computer Algorithm, Machine Learning]
 tags: [Machine Learning, Linear Algebra]
 math: true
 # image:
 #     path: /assets/img/cat.png
 #     alt: 선형 회귀 :/
-# render_with_liquid: false
+render_with_liquid: false
 # pin: false
 ---
 
