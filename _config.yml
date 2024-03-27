@@ -98,6 +98,7 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
+  active: utterances
   # Global switch for the post comment system. Keeping it empty means disabled.
   provider: utterances # [disqus | utterances | giscus]
   # The provider options are as follows:
@@ -108,8 +109,6 @@ comments:
     repo: ramraid319/ramraid319.github.io # <gh-username>/<repo>
     issue_term: pathname # < url | pathname | title | ...>
     theme: "github-dark"
-    crossorigin: "anonymous"
-    label: "✨"
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
