@@ -46,17 +46,22 @@ $$RSS = (y_1 - \hat \beta_0 - \hat \beta_1x_1)^2 + (y_2 - \hat \beta_0 - \hat \b
 $$\hat\beta_0 = \frac{\sum_{i=1}^{n}(x_i-\overline x)(y_i-\overline y)}{\sum_{i=1}^{n}(x_i-\overline x)^2}$$
 $$\hat\beta_1 = \overline y - \hat\beta_1 \overline x$$
 
-$\overline y \equiv \frac{1}{n}\sum_{i=1}^{n}y_i$ 와 $\overline x \equiv \frac{1}{n}\sum_{i=1}^{n}x_i$ 는 샘플의 mean이다.
+> $\overline y \equiv \frac{1}{n}\sum_{i=1}^{n}y_i$ 와 $\overline x \equiv \frac{1}{n}\sum_{i=1}^{n}x_i$ 는 샘플의 mean이다.
 {: .prompt-info }
+
 결과적으로, 위 두 수식으로 simple linear regression 에서 최소제곱법으로 coefficient 를 추정할 수 있다.
 
 ## Multiple Linear Regression
 
 단순 Linear Regression을 여러 개의 특성이 있는 데이터셋의 경우 Multiple Linear Regression 으로 확장 가능하다.
 여러 개의 특성 $x_i$와 연속적인 목표 변수 $y$ 사이의 관계를 모델링하면 아래와 같다.
+
 $$y=w_0x_0 + w_1x_1 + ... + w_mx_m=\sum_{i=0}^{m}w_ix_i=w^Tx$$
+
 편의상 $x_0=1$로 간주하여 벡터 형태로 표현한다.
+
 2차원의 경우 $w$는 평면을 나타내고, 3차원 이상인 경우 $w$는 Hyperplane을 나타낸다.
+
 Regression은 차원에 관계없이 동일한 방법을 이용한다.
 
 ![Hyperplane](/assets/img/posts/MachineLearning/LinearRegression_01.png){: width="972" height="589" }
@@ -65,9 +70,9 @@ _Hyperplane_
 ## TODO
 
 - [ ] Linear Regression
-    -[x] Simple Linear Regression
-    -[x] Estimating the Coefficients
-    -[ ] Multiple Linear Regression
-    -[ ] Correlation Analysis
-    -[ ] Ordinary Leat Squares
-    -[ ] Model Evaluation
+    - [x] Simple Linear Regression
+    - [x] Estimating the Coefficients
+    - [ ] Multiple Linear Regression
+    - [ ] Correlation Analysis
+    - [ ] Ordinary Leat Squares
+    - [ ] Model Evaluation 
