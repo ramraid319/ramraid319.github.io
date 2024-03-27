@@ -107,6 +107,9 @@ comments:
   utterances:
     repo: ramraid319/ramraid319.github.io # <gh-username>/<repo>
     issue_term: pathname # < url | pathname | title | ...>
+    theme: "github-dark"
+    crossorigin: "anonymous"
+    label: "✨"
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
