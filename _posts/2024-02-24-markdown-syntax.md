@@ -9,7 +9,7 @@ comments: true
 math: false
 mermaid: false
 image:
-    path: /assets/img
+    path: /assets/img/cat.png
     alt: nothing around to show :/
 # render_with_liquid: false
 pin: false
