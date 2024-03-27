@@ -4,15 +4,12 @@ author: ramraid
 date: 2024-03-11 20:00:00 +0800
 categories: [Machine Learning]
 tags: [Machine Learning, Linear Algebra]
-toc: true
-comments: true
 math: true
-mermaid: false
 # image:
 #     path: /assets/img/cat.png
 #     alt: 선형 회귀 :/
 # render_with_liquid: false
-pin: false
+# pin: false
 ---
 
 # Linear Regression

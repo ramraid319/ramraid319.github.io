@@ -4,9 +4,7 @@ author: ramraid
 date: 2024-02-24 20:30:00 +0800
 categories: [Blogging]
 tags: [writing]
-toc: true
-comments: true
-math: false
+math: true
 mermaid: false
 image:
     path: /assets/img/cat.png
@@ -100,3 +98,6 @@ tags: [TAG]     # TAG names should always be lowercase
 ```
 
 ![cat](/assets/img/cat.png)
+
+[^footnote]: The first
+[^fn-nth-2]: The second
