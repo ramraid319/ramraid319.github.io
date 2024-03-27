@@ -99,4 +99,4 @@ tags: [TAG]     # TAG names should always be lowercase
 ---
 ```
 
-![cat](cat.png)
+![cat](/assets/img/cat.png)
