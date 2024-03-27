@@ -10,7 +10,7 @@ math: false
 mermaid: false
 image:
     path: /assets/img/cat.png
-    alt: nothing around to show :/
+    alt: 블로그 이사 :/
 # render_with_liquid: false
 pin: false
 ---
