@@ -2,7 +2,7 @@
 title: Linear Regression
 author: ramraid
 date: 2024-03-11 20:00:00 +0800
-categories: [Computer Algorithm, Machine Learning]
+categories: [Computer Science, Machine Learning]
 tags: [Machine Learning, Linear Algebra]
 math: true
 # image:
@@ -16,7 +16,7 @@ render_with_liquid: false
 
 ## Simple Linear Regression
 
-X와 Y 사이의 linear relationship을 아래와 같이 나타낸다.
+X와 Y 사이의 **Linear Relationship**을 아래와 같이 나타낸다.
 
 $$ Y \approx  \beta_0 + \beta_1X $$
 
@@ -41,6 +41,7 @@ $$RSS = (y_1 - \hat \beta_0 - \hat \beta_1x_1)^2 + (y_2 - \hat \beta_0 - \hat \b
 최소제곱법으로 $RSS$ 를 최소화하는 $\hat\beta_0$ 과 $\hat\beta_1$ 을 구한다.
 
 $$\hat\beta_0 = \frac{\sum_{i=1}^{n}(x_i-\overline x)(y_i-\overline y)}{\sum_{i=1}^{n}(x_i-\overline x)^2}$$
+
 $$\hat\beta_1 = \overline y - \hat\beta_1 \overline x$$
 
 > $\overline y \equiv \frac{1}{n}\sum_{i=1}^{n}y_i$ 와 $\overline x \equiv \frac{1}{n}\sum_{i=1}^{n}x_i$ 는 샘플의 mean이다.
@@ -57,7 +58,7 @@ $$y=w_0x_0 + w_1x_1 + ... + w_mx_m=\sum_{i=0}^{m}w_ix_i=w^Tx$$
 
 편의상 $x_0=1$로 간주하여 벡터 형태로 표현한다.
 
-2차원의 경우 $w$는 평면을 나타내고, 3차원 이상인 경우 $w$는 Hyperplane을 나타낸다.
+2차원의 경우 $w$는 평면을 나타내고, 3차원 이상인 경우 $w$는 **Hyperplane (초평면)** 을 나타낸다.
 
 Regression은 차원에 관계없이 동일한 방법을 이용한다.
 

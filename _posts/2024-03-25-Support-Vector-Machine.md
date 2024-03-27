@@ -2,7 +2,7 @@
 title: Support Vector Machine
 author: ramraid
 date: 2024-03-25 20:00:00 +0800
-categories: [Computer Algorithm, Machine Learning]
+categories: [Computer Science, Machine Learning]
 tags: [Machine Learning, Linear Algebra]
 toc: true
 comments: true

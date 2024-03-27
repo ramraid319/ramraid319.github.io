@@ -3,7 +3,7 @@ title: markdown syntax
 author: ramraid
 date: 2024-02-24 20:30:00 +0800
 categories: [Markdown]
-tags: [writing]
+tags: [Markdown]
 math: true
 image:
     path: /assets/img/cat.png
