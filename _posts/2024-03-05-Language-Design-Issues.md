@@ -54,14 +54,9 @@ Writing 도 중요하지만, Reading 또한 중요하기 때문에, 가독성 (R
 
 ### 프로그래밍 언어의 비용
 
-- 프로그램 수행 비용
-- 프로그램 번역 비용
-- 프로그램 작성 비용
-- 프로그램 관리 비용
+- 프로그램 [ 수행 / 번역 / 작성 / 관리 ] 비용
 
-## Programming Paradigm & Compute Model
-
-
+## Programming Paradigm & Computation model
 
 | 프로그래밍 패러다임  | 계산 모델                    |
 | :----------------- | :--------------------------- |
@@ -74,5 +69,60 @@ Writing 도 중요하지만, Reading 또한 중요하기 때문에, 가독성 (R
 
 객체지향 패러다임은 대부분 명령형 언어로 지원, 그러나 함수형 언어로 지원할 수도 있음
 
-### 명령형 언어 / Imperative, Procedural Languages
+#### 명령형 언어 / Imperative, Procedural Languages
 
+- 계산 모델
+    - State Transition Machine
+    - 입력은 초기 State, 상태 전이를 계속한 후, 최종 State에 출력이 있음.
+- 특징
+    - 상태 변경에 중심을 둔다.
+~~~
+s1; s2; s3;
+~~~
+- 예) FORTRAN, COBOL, C, Pascal 등
+
+#### 함수형 언어 / Functional Languages, Applicatigve Languages
+
+- 계산 모델
+    - 입력 값과 출력 값은 연관성이 없음
+    - 변수, 대입 연산이 없음
+- 특징
+    - 주로 함수를 작성, 합성한다.
+~~~
+P1(P2(P3(X)))
+~~~
+- 예) LISP, Scheme, ML, Haskell
+
+#### 규칙기반 언어 / Rule-Based Languages, Logic Languages
+
+- 계산 모델
+    - 논리 규칙으로 추론
+    - 명제의 조합을 입력 --> 명제 또는 명제의 일부를 출력
+- 특징
+    - 문제의 특성을 논리 규칙으로 설정
+    - 순서를 중요시함
+~~~
+'Goal <-- Hypotheses>'
+~~~
+- 예) Prolog
+
+#### 객체지향 언어 / Object-Oriented Languages
+
+- 계산 모델
+    - 주로 명령형 패러다임 언어에 구현됨
+- 특징
+    - Identity 를 갖는 객체들로 구성
+    - 객체는 property, behavior를 가지고 있음
+    - 객체 = 클래스의 실체 ( instance )
+    - IS - A 관계 : 추상화간의 포함관계, Subclass
+- 예) Smalltalk, C++, Java
+
+### 구조화 프로그래밍
+_GOTO 논란과 함께 출현했다._
+
+- 순차구조 / Sequence Structure
+- 선택구조 / Selection Structure
+- 반복구조 / Repetition Structure
+
+하향식 설계 ( top-down design )
+프라임 프로그램 ( prime program )
