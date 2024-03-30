@@ -1,7 +1,7 @@
 ---
 title: markdown syntax
 author: ramraid
-date: 2024-02-24 20:30:00 +0800
+date: 2024-02-12 20:30:00 +0800
 categories: [Markdown]
 tags: [Markdown]
 math: true
