@@ -1,9 +1,9 @@
 ---
-title: Language Design Issues
+title: "[PL] Language Design Issues"
 author: ramraid
 date: 2024-03-05 20:00:00 +0800
 categories: [Computer Science, Programming Language]
-tags: [Programming Language]
+tags: [Programming Language, Automata]
 math: false
 # image:
 #     path: /assets/img/cat.png
