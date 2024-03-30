@@ -2,7 +2,7 @@
 title: markdown syntax
 author: ramraid
 date: 2024-02-12 20:30:00 +0800
-categories: [Blogging]
+categories: [Blogging, Markdown]
 tags: [Markdown]
 math: true
 image:

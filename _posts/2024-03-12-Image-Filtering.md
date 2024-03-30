@@ -42,10 +42,4 @@ pin: false
 
 - [ ] Image Filtering
     - [ ] Imgae
-        - [ ] Image Transformation
-        - [ ] Image Denoising
     - [ ] Filter / Kernel
-        - [ ] Linear Filtering
-        - [ ] Mean Filtering
-        - [ ] Gaussian Filtering
-        - [ ] Sharpening
