@@ -1,5 +1,5 @@
 ---
-title: Support Vector Machine
+title: "[ML] Support Vector Machine"
 author: ramraid
 date: 2024-03-25 20:00:00 +0800
 categories: [Computer Science, Machine Learning]

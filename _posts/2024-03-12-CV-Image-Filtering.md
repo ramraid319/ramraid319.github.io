@@ -1,5 +1,5 @@
 ---
-title: Image Filtering
+title: "[CV] Image Filtering"
 author: ramraid
 date: 2024-03-12 20:00:00 +0800
 categories: [Computer Science, Computer Vision]

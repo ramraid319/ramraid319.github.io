@@ -1,5 +1,5 @@
 ---
-title: Linear Regression
+title: "[ML] Linear Regression"
 author: ramraid
 date: 2024-03-11 20:00:00 +0800
 categories: [Computer Science, Machine Learning]
