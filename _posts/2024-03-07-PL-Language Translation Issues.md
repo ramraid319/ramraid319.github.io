@@ -1,7 +1,7 @@
 ---
 title: "[PL] Language Translation Issues"
 author: ramraid
-date: 2024-03-05 20:00:00 +0800
+date: 2024-03-07 20:00:00 +0800
 categories: [Computer Science, Programming Language]
 tags: [Programming Language, Automata]
 math: false

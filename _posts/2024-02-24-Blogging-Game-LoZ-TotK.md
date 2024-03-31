@@ -22,7 +22,7 @@ render_with_liquid: false
 
 그래서 아끼고 아끼다가 이번 겨울방학에 못깨면 앞으로 몇년동안 손도 못 댈거 같아서 ㅠㅠ
 
-스포일러 주의
+> 스포일러 주의
 {: .prompt-danger }
 
 ![Zelda](/assets/img/posts/Game/LegendofZelda/LegendOfZelda01.jpg){: width="972" heigh="589"}
