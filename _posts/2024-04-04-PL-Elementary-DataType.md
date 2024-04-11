@@ -141,3 +141,72 @@ render_with_liquid: false
     - 확장 변환 (widening) : 정보 손실 없음
     - 축소 변환 (narrowing) : 정보가 손실될 수 있음
 
+## Assignment
+
+A := B + C;
+
+*Pick up contents of location B, Add contents of location C, Store result into address of A*
+
+> L-value : 객체의 위치 (box), R-value : 변수의 내용 (contents)
+{: .prompt-info }
+
+#### Assignment Issues
+
+- Side Effect
+    - 값을 다른 값에 binding 하기 때문에 Side Effect 발생
+- 연속 지정 (Cascading Assignments)
+    - Pascal Assignment : integer * integer -> void
+    - C Assignment : integer * integer -> integer
+- 지정 연산 종류
+    - Scalar Assignment : value copying
+    - Pointer Assignment : pointer copying
+    - Record Assignment : bit-wise copying, field-wise copying
+
+## Scalar Data and Composite Data
+
+- Scalar Data
+    - 하나의 데이터 객체는 하나의 값만 나타냄
+    - 하드웨어를 통해 직접 지원
+- Composite Data
+    - 복합데이터, 군집데이터
+    - 하나의 데이터 객체가 여러 정보를 포함
+    - 소프트웨어의 도움을 받아 지원
+
+### Numeric Data Types
+
+- 정수
+    - 정수 integer, subranges
+- 실수
+    - 부동소수점 수 floating-point numbers, 고정소수점 수 fixed-point real numbers
+- 기타
+    - 복소수 complex number, 유리수 rational numbers
+
+#### Integer
+
+- 2's complement 로 구현
+- 산술연산, 관계연산, 대입연산, 비트연산
+- 통상 descriptor가 없음
+
+#### Subrange Types
+
+- Integer 타입의 서브타입 ex. 1..10
+- 연산은 정수형 연산을 그대로 사용
+- 작은 공간에 저장할 수 있음 + 정밀한 타입 검사 가능 (month = 1..12, month = 13?? -> type error)
+
+#### Floating-Point Real Numbers
+
+- 정수형의 모든 연산 가능
+- 소수점 이하를 처리하기 위한 연산, round, truncate, ceiling, floor 등
+- IEEE Standard 754 에 32 bit, 64 bit 표현 형식 정의
+
+### Composite Data Types
+
+- Composite Data : 여러 데이터를 한 단위의 데이터로 만듦 ex. char -> string
+- Derived Type : 기존 타입을 새로운 타입으로 만듦
+
+#### Character Strings
+
+
+
+> 내용 업데이트중
+{: .prompt-warning }
