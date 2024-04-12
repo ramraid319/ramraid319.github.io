@@ -206,7 +206,11 @@ A := B + C;
 
 #### Character Strings
 
-
+- 문자열
+    - primitive data type의 문자들로 이루어짐
+    - 문자열 자체를 primitive type으로 제공하기도 함
+    - Fixed Length : ex. char A[10]
+    - Variable Length : ex. E = "ABC"
 
 > 내용 업데이트중
 {: .prompt-warning }
