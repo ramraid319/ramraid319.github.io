@@ -52,7 +52,7 @@ render_with_liquid: false
 - Data Security
     - Adversarial Attack : 입력 데이터를 공격하여 AI의 판단 결과에 영향 -> 사람이 인지할 수 없는 미세한 Perturbation 주입
 
-### Machine Learning
+## Machine Learning
 
 - Machine Learning Pipeline
     - Preprocessing : Feature Extraction + Scaling, Feature Selection, Dimensionality Reduction, Sampling
