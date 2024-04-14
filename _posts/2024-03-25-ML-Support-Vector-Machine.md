@@ -22,15 +22,74 @@ pin: false
 
 ## Hyperplane
 
+$p$-dimensional 공간에서 hyperplane (초평면)은 $p-1$ dimension의 flat affine 부분공간이다.
+
+Hyperplane의 수학적 정의는 아래와 같다.
+$$\beta_0+\beta_1X_1+\beta_2X_2+...+\beta_pX_p=0$$
+
+> 예를 들어, 2-dimensional hyperplane은 $\beta_0+\beta_1X_1+\beta_2X_2=0$ 이다.
+{: .prompt-info}
+
+$$\beta_0+\beta_1X_1+\beta_2X_2+...+\beta_pX_p>0$$
+
+$$\beta_0+\beta_1X_1+\beta_2X_2+...+\beta_pX_p<0$$
+
+위와 같이 Hyperplane을 기준으로 공간을 two halves로 나누는 것이 가능하다.
+
 #### Classification Using a Separating Hyperplane
+
+이 Hyperplane을 이용해서 Classification을 할 수 있다.
+
+$p$-dimensional 공간에서 $n$ 개의 훈련 관측값으로 구성된 $n$ x $p$ 행렬 X
+
+$$x_1=\begin{bmatrix}x_{11}\\
+...\\
+x_{1p}\end{bmatrix}, ..., x_n=\begin{bmatrix}x_{n1}\\
+...\\
+x_{np}\end{bmatrix}$$
+
+![Hyperplane](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-01.png){: width="972" height="589" }
+_Hyperplane_
+
+$$\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_pX_{ip}>0 y_i=1$$
+
+$$\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_pX_{ip}<0 y_i=-1$$
+
+파란색 Class를 $y_i=1$, 빨간색 Class를 $y_i=-1$라고 Label 을 설정할 수 있다.
+
+분리된 hyperplane은 모든 $i=1,...,n$ 에 대해, 아래 특성을 가진다.
+
+$$y_i(\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_px_{ip})>0$$
 
 ### The Maximal Margin Classifier
 
+Classify Hyperplane은 무수히 많다. 따라서, Maximal Margin Classifier 을 이용해 가장 적절한 Hyperplane을 찾을 수 있다.
+
+![MaximalMargin](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-02.png){: width="972" height="589" }
+
+하지만 $p$-dimension 이 커지면, overfitting될 수 있다.
+
+만약, $\beta_0, \beta_1, ... ,\beta_p$ 가 maximal margin hyperplane의 coefficients라고 하면, maximal margin classifier, $f(x^*)=\beta_0 + \beta_1x^*_1 + \beta_2x^*_2 +...+\beta_px^*_p$ 은 테스트 관측값 $x^*$를 분류한다.
+
 #### Construction of Maximal Margin Classifier
+
+*maximize* $M$
+*subject to* $\sum^p_{j=1}\beta^2_j=1$
+$y_i(\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_px_{ip})>M$ for all $i=1,...,n$
 
 #### The Non-separable Case
 
+![MaximalMargin](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-03.png){: width="972" height="589" }
+
+하지만, Maximal Margin Classifier 로 분류할 수 없는 경우도 있다.
+
+![MaximalMargin](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-04.png){: width="972" height="589" }
+
+또는, 한 개의 관측값이 Hyperplane 을 극단적으로 변화시킬 수 있다.
+
 ## Support Vector Classifier
+
+
 
 ## Support Vector Machine
 
