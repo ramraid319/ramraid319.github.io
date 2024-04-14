@@ -66,7 +66,9 @@ $$\log{\frac{p(X)}{1-p(X)}}=\beta_0+\beta_1X$$
 
 ####  Estimating the Regression Coefficients
 
-Logistic Regression의 Coefficients Estimation은 maximum likelihood method를 이용한다. likelihood function
+Logistic Regression의 Coefficients Estimation은 maximum likelihood method를 이용한다.
+
+likelihood function
 
 $$l(\beta_0, \beta_1)=\prod_{i:y_i=1}p(x_i)\prod_{i':y_{i'}=0}(1-p(x_{i'}))$$
 

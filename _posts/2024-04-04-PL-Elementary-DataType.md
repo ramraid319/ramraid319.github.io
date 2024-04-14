@@ -212,5 +212,13 @@ A := B + C;
     - Fixed Length : ex. char A[10]
     - Variable Length : ex. E = "ABC"
 
+#### Pointer
+
+- 포인터?
+    - 다른 데이터 객체의 주소를 가리키기 위한 데이터 타입
+- Pointer를 사용하는 이유
+    - Recursive data structure 구현
+    - 
+
 > 내용 업데이트중
 {: .prompt-warning }
