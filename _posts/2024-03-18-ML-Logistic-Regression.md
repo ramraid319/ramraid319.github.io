@@ -27,7 +27,7 @@ Class Lable 은 순서가 없고, 이산형 변수. 즉, Classification은 Categ
 - Logit Function (Log-odds) : $logit(P)=\ln\frac{P}{(1-P)}$
 
 > Logit Function은 0과 1 사이의 입력 값을 실수 범위 출력 값으로 변환
-{: .prompt-info }
+{: .prompt-info}
 
 다양한 특성을 기반으로 Class Lable을 추정하는 것이 목표, 아래와 같이 관계 설정 가능
 
