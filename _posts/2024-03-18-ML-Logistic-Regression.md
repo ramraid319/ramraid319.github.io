@@ -25,6 +25,7 @@ Class Lable 은 순서가 없고, 이산형 변수. 즉, Classification은 Categ
 
 - Odds Ratio : $\frac{P}{(1-P)}$
 - Logit Function (Log-odds) : $logit(P)=\ln\frac{P}{(1-P)}$
+
 > Logit Function은 0과 1 사이의 입력 값을 실수 범위 출력 값으로 변환
 {: .prompt-info }
 
@@ -36,6 +37,7 @@ $$logit(P(y=1|x))=w_0x_0+w_1x_1+...+w_mx_m=\sum^m_{i=0}w_ix_i=w^Tx$$
 {: .prompt-info}
 
 $$\phi(z)=\frac{1}{1+e^{-z}}$$
+
 > $\phi(z)$는 Sigmoid Function, 범위가 [0, 1] 이므로 특정 샘플이 해당 클래스에 속할 확률이 된다.
 {: .prompt-info}
 
