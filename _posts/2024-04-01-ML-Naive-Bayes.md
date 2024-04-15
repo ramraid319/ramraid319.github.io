@@ -18,3 +18,6 @@ pin: false
 > !주의! 게으름 피우느라 아직 볼 가치가 없는 글입니다.
 {: .prompt-danger }
 
+# Naive Bayes
+
+$P(C|x_1,...x_n)=aP(x_1,...,x_n)P(C)=\alpha P(C)$
