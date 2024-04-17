@@ -1,7 +1,7 @@
 ---
 title: "[ML] Logistic Regression"
 author: ramraid
-date: 2024-03-11 20:00:00 +0800
+date: 2024-03-18 20:00:00 +0800
 categories: [Computer Science, Machine Learning]
 tags: [Machine Learning, Linear Algebra]
 math: true

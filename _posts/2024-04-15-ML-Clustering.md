@@ -66,4 +66,15 @@ $$x_{j,i}\to \frac{(x_{j,i}-\mu_i)}{\sigma_i}$$
   - 예측할 수는 없다. 하지만 instance들을 여러 그룹으로 분리시킬 수 있다.
 
 - Expressing the result of clustering
-  - 
+  - Disjoint 나 Overlapping으로 표현
+  - Deterministic 이나 Probabilistic
+  - Hierachical 이나 Flat
+  
+- K-means algorithm
+- Hierarchical clustering
+- Statistical clustering
+
+#### K-means algorithm
+
+- 각 클러스터에 값의 평균값을 기준으로 클러스터링을 반복
+- initial center은 random하기 때문에 실행할 때마다 달라질 수 있는 문제점
