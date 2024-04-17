@@ -1,5 +1,5 @@
 ---
-title: "[ML] Naive Bayes"
+title: "[ML] Probabilistic Models"
 author: ramraid
 date: 2024-04-01 20:00:00 +0800
 categories: [Computer Science, Machine Learning]
@@ -14,9 +14,6 @@ mermaid: false
 # render_with_liquid: false
 pin: false
 ---
-
-> !주의! 게으름 피우느라 아직 볼 가치가 없는 글입니다.
-{: .prompt-danger }
 
 # Probabilistic Models
 

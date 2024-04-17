@@ -157,7 +157,7 @@ Linear support vector classifier은 위와 같이 표현 가능하다.
 *n parameters $\alpha_i$, $i=1,\dots,n$*
 *one training observation $\beta_0$*
 
-$\alpha_i$와 $\beta_0$를 추정하기 위해서 $\begin{pmatrix}n\\2\end{pmatrix}$ 개의 내적 $<x, x_i>$이 필요하다.
+$\alpha_i$와 $\beta_0$를 추정하기 위해서 $\begin{pmatrix} n\2 \end{pmatrix}$ 개의 내적 $<x, x_i>$이 필요하다.
 
 이를 generalization하면, $K(x_i, x_{i'})$ 으로 나타낼 수 있다.
 
