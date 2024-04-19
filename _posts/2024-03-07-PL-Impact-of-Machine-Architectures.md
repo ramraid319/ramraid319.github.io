@@ -24,7 +24,7 @@ Software-Simulated Computer : 다른 컴퓨터 상에서 작동하는 소프트�
 
 #### Computer Hardware
 
-![ComputerHardware]('assets\img\posts\ProgrammingLanguage\PL-Impact-of-Machine-Architectures\PL-Impact-of-Machine-Architectures-01.png'){: width="608" height="467" }
+![ComputerHardware](assets\img\posts\ProgrammingLanguage\PL-Impact-of-Machine-Architectures\PL-Impact-of-Machine-Architectures-01.png){: width="608" height="467" }
 
 구성 요소
 - Data
@@ -36,7 +36,7 @@ Software-Simulated Computer : 다른 컴퓨터 상에서 작동하는 소프트�
 
 #### Machine Cycle
 
-![ComputerHardware]('assets\img\posts\ProgrammingLanguage\PL-Impact-of-Machine-Architectures\PL-Impact-of-Machine-Architectures-02.png'){: width="454" height="490" }
+![ComputerHardware](assets\img\posts\ProgrammingLanguage\PL-Impact-of-Machine-Architectures\PL-Impact-of-Machine-Architectures-02.png){: width="454" height="490" }
 
 Fetch -> Decode instruction -> Fetch operands -> Branch to designated operation
 
@@ -66,7 +66,7 @@ Fetch -> Decode instruction -> Fetch operands -> Branch to designated operation
 
 #### 언어 구현 구조
 
-![ComputerHardware]('assets\img\posts\ProgrammingLanguage\PL-Impact-of-Machine-Architectures\PL-Impact-of-Machine-Architectures-03.png'){: width="858" height="381" }
+![ComputerHardware](assets\img\posts\ProgrammingLanguage\PL-Impact-of-Machine-Architectures\PL-Impact-of-Machine-Architectures-03.png){: width="858" height="381" }
 
 #### 가상기계
 
