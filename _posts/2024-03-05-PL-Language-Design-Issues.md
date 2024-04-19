@@ -3,7 +3,7 @@ title: "[PL] Language Design Issues"
 author: ramraid
 date: 2024-03-05 20:00:00 +0800
 categories: [Computer Science, Programming Language]
-tags: [Programming Language, Automata]
+tags: [Programming Language]
 math: false
 # image:
 #     path: /assets/img/cat.png
@@ -58,11 +58,11 @@ Writing 도 중요하지만, Reading 또한 중요하기 때문에, 가독성 (R
 
 ## Programming Paradigm & Computation model
 
-| 프로그래밍 패러다임  | 계산 모델                    |
-| :----------------- | :--------------------------- |
-| 명령형 언어         | von Neumann Model            |
-| 함수형 언어         | Recursive Function Model     |
-| 논리 언어           | Deductive Reasoning Model    |
+| 프로그래밍 패러다임 | 계산 모델                 |
+| :------------------ | :------------------------ |
+| 명령형 언어         | von Neumann Model         |
+| 함수형 언어         | Recursive Function Model  |
+| 논리 언어           | Deductive Reasoning Model |
 
 패러다임과 계산 모델은 밀접하지만, 정확히 일대일 대응은 아니다.
 {: .prompt-info }
@@ -117,7 +117,7 @@ P1(P2(P3(X)))
     - IS - A 관계 : 추상화간의 포함관계, Subclass
 - 예) Smalltalk, C++, Java
 
-### 구조화 프로그래밍
+#### 구조화 프로그래밍
 _GOTO 논란과 함께 출현했다._
 
 - 순차구조 / Sequence Structure
