@@ -24,7 +24,7 @@ pin: false
 
 - Null Pointer Exception을 완화하기 위한 **Null Safe** 지원
 
-```kotline
+```kotlin
 var a: String ? = "NPE test"    // ? : 예외적으로 NULL 허용
 a = null
 ```
@@ -35,13 +35,13 @@ println(${a!!})     // !! : Null Assertion, 변수가 null이 아님을 보장
 
 - 엘비스 연산자
 
-```kotline
+```kotlin
 val l = (b?.length) ?: -1   // NULL이면 -1, 아니면 (b.length)
 ```
 
 - 세이프콜
 
-```kotline
+```kotlin
 println(a?.length)      // NULL이면 뒤의 메소드 실행하지 않음
 ```
 
