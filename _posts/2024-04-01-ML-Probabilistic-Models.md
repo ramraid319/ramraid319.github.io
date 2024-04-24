@@ -52,7 +52,7 @@ pin: false
 
 ![NumericAttributes](assets\img\posts\MachineLearning\ML-Probabilistic-Models\ML-Probabilistic-Models-03.png){: width="940" height="105" }
 
-- majority class의 수가 같은 partitions는 합칠 수 있다.
+- majority class가 같은 partitions는 합칠 수 있다.
 
 ## Simple Probabilistic Modeling
 
