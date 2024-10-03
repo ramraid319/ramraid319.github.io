@@ -33,3 +33,14 @@ $$f(n) = h(n)$$
 {: .prompt-info }
 
 Uniform-Cost Search 에서는 $f(n) = g(n)$이다.
+
+### example
+
+**TODO**
+
+### Evalutation
+
+- 유한 공간에서 불완전, 최적화되지 않는다. (무한 공간에서는 완전함)
+- Heuristic funtion이 좋으면 시공간 복잡도가 줄어들음
+- Time Complexity : $O(b^m)$, $m$은 탐색 공간에서의 maximum depth
+- Space Complexity : 메모리에 모든 leaf nodes를 남김
