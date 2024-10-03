@@ -1,9 +1,9 @@
 ---
 title: "[AL] Depth First Search"
 author: ramraid
-date: 2024-09-12 20:00:00 +0800
-categories: [Computer Science, Algorithm]
-tags: [Algorithm, Uniformed Search Strategies]
+date: 2024-09-19 20:00:00 +0800
+categories: [Computer Science, Algorithm, Uniformed Search Strategies]
+tags: [Algorithm, Search Strategies]
 toc: true
 comments: true
 math: true

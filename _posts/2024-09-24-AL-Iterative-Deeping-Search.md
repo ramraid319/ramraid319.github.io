@@ -1,7 +1,7 @@
 ---
-title: "[AL] Breadth First Search"
+title: "[AL] Iterative Deeping Search"
 author: ramraid
-date: 2024-09-12 20:00:00 +0800
+date: 2024-09-24 20:00:00 +0800
 categories: [Computer Science, Algorithm, Uniformed Search Strategies]
 tags: [Algorithm, Search Strategies]
 toc: true
@@ -11,4 +11,4 @@ mermaid: false
 pin: false
 ---
 
-# Breadth-First Search
+# Uniform Cost Search
