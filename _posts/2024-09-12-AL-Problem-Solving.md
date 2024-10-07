@@ -1,5 +1,5 @@
 ---
-title: "[AL] Breadth First Search"
+title: "[AL] Problem Solving"
 author: ramraid
 date: 2024-09-12 20:00:00 +0800
 categories: [Computer Science, Algorithm, Uniformed Search Strategies]
@@ -11,5 +11,5 @@ mermaid: false
 pin: false
 ---
 
-# Breadth-First Search
+# Problem Solving
 

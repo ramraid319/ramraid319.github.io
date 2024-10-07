@@ -15,20 +15,20 @@ pin: false
 
 ### err 8
 
-```Terminal
+```text
 error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
 ```
 
 HTTP/2의 오류.
 HTTP/1.1 로 변경한다.
 
-```Terminal
+```text
 git config --global http.version HTTP/1.1
 ```
 
 ### GnuTLS recv error (-9)
 
-```Terminal
+```text
 error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
 error: 3785 bytes of body are still expected
 fetch-pack: unexpected disconnect while reading sideband packet
@@ -39,13 +39,13 @@ fatal: fetch-pack: invalid index-pack output
 파일 크기가 postBuffer보다 큰 경우
 버퍼 크기를 늘린다.
 
-```Terminal
+```text
 git config --global http.postBuffer 1048576000
 ```
 
-###
+### ssh: connect to host gmail.com port 22: Network is unreachable
 
-```Terminal
+```text
 ssh: connect to host gmail.com port 22: Network is unreachable
 fatal: Could not read from remote repository.
 
