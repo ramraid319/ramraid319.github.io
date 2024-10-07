@@ -81,3 +81,9 @@ function CHILD-NODE(problem, parent, action) --> returns a node
 - Optimality : 최적의 해를 찾는가?
 - Time Complexity : 얼마나 오래 걸리는가?
 - Space Complexity : 메모리가 얼마나 사용되는가?
+
+#### Expression
+
+- $b$, branching factor나 다음 노드의 최대 수
+- $d$, 가장 얕은 goal node의 depth
+- $m$, 상태 공간에서의 모든 path의 최대 길이 (maybe $\infty$)
