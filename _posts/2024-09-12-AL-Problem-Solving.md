@@ -37,7 +37,7 @@ Optimal Solution : Solution 중, 가장 cost가 낮은 것
 
 ### Searching for Solutions (TREE-SEARCH)
 
-```pseudo
+```text
 function TREE-SEARCH(problem) --> returns a solution, or failure
     initialize the frontier using initial state of *problem*
     loop do
@@ -51,7 +51,7 @@ explored set의 모든 확장된 노드를 저장하여 중복되는 path를 피
 
 ### Searching for Solutions (GRAPH-SEARCH)
 
-```pseudo
+```text
 function GRAPH-SEARCH(problem) --> returns a solution, or failure
     initialize the frontier using the initial state of problem
     initialize the explored set to be empty
@@ -66,7 +66,7 @@ function GRAPH-SEARCH(problem) --> returns a solution, or failure
 
 ### Searching for Solutions (CHILD-NODE)
 
-```pseudo
+```text
 function CHILD-NODE(problem, parent, action) --> returns a node
     return a node with
         STATE = problem.RESULT(parent.STATE, action)
