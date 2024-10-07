@@ -12,3 +12,4 @@ pin: false
 ---
 
 # Uniform Cost Search
+
