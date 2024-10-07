@@ -29,7 +29,7 @@ imformal한 문제를 formal하게 바꾸는 것
 
 - Initial state 정의
 - Operators 정의
-- Goal state 정의
+- Goal test 정의
 - Path cost function 정의 : 각 path에서 진행한 action들의 cost 합
 
 Solution : inital state에서 goal state까지의 path
