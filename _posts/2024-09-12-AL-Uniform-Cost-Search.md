@@ -1,7 +1,7 @@
 ---
 title: "[AL] Uninformed Cost Search"
 author: ramraid
-date: 2024-09-17 20:00:00 +0800
+date: 2024-09-12 20:00:00 +0800
 categories: [Computer Science, Algorithm, Uninformed Search Strategies]
 tags: [Algorithm, Search Strategies]
 toc: true

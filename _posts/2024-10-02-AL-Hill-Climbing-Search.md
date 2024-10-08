@@ -1,7 +1,7 @@
 ---
-title: "[AL] Simulated Annealing Search"
+title: "[AL] Hill Climbing Search"
 author: ramraid
-date: 2024-10-03 20:00:00 +0800
+date: 2024-10-02 20:00:00 +0800
 categories: [Computer Science, Algorithm, Local Search Algorithms]
 tags: [Algorithm, Search Strategies]
 toc: true
@@ -11,4 +11,5 @@ mermaid: false
 pin: false
 ---
 
-# Uniform Cost Search
+# Local Search Algorithms
+
