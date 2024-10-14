@@ -87,3 +87,13 @@ function CHILD-NODE(problem, parent, action) --> returns a node
 - $b$, branching factor나 다음 노드의 최대 수
 - $d$, 가장 얕은 goal node의 depth
 - $m$, 상태 공간에서의 모든 path의 최대 길이 (maybe $\infty$)
+
+### Two Search Strategies
+
+#### Uninformed Search (Blind Search)
+
+현 상태에서 goal까지 남은 step이나 path cost를 모름
+
+#### Informed Search (Heuristic Search)
+
+어떤 state가 더 유망한지 판별 가능.. 더 효율적이다.
