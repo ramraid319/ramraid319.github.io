@@ -9,6 +9,9 @@ comments: true
 math: true
 mermaid: false
 pin: false
+image:
+    path: ../assets/img/posts/Algorithm/Hill-Climbing-Search.png
+    alt: ../assets/img//cat.png
 ---
 
 # Local Search Algorithms
