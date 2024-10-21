@@ -10,8 +10,8 @@ math: true
 mermaid: false
 pin: false
 image:
-    path: ../assets/img/posts/Algorithm/Comparing-Uniformed-Search.png
-    alt: ../assets/img/cat.png
+    path: ../assets/img/posts/Algorithm/Bidirectional-Search.png
+    alt: Bidirectional Search
 ---
 
 ## Bidirectional Search

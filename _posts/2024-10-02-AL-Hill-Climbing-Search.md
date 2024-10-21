@@ -11,7 +11,7 @@ mermaid: false
 pin: false
 image:
     path: ../assets/img/posts/Algorithm/Hill-Climbing-Search.png
-    alt: ../assets/img//cat.png
+    alt: Hill Climbing Search
 ---
 
 # Local Search Algorithms
