@@ -26,7 +26,7 @@ Valley 하강법의 효율과 Random Walk의 Completeness
 - $\Delta E$: 평가가 악화되는 정도, 움직임의 나쁜 정도의 지수적으로 선택될 확률이 감소한다.
 - $T$: Temperature, Annealing schedule에 의해 결정된다. T가 높으면 나쁜 움직임이 발생할 가능성이 높다. 
 
-$T$가 0이면 Simple Hill-Climbing (First choice Hill-Climbing)이다
+> $T$가 0이면 Simple Hill-Climbing (First choice Hill-Climbing)이다
 {: .prompt-info}
 
 Annealing Schedule이 $T$를 충분히 낮추면, 글로벌 최적값은 확률이 1이 도달된다.

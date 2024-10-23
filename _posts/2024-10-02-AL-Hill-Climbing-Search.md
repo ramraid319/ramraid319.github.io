@@ -29,7 +29,7 @@ Objective function에 따른 최적의 Configuration을 찾는다.
 - 값이 커지는 곳으로 이동한다.
 - Gradient Ascent/Descent Search 라고도 한다.
 
-Drawbacks: Greedy하게 local maximum만 쫒다가 갇힐 수 있음
+> Drawbacks: Greedy하게 local maximum만 쫒다가 갇힐 수 있음
 {: .prompt-warning}
 
 ### Implementation
