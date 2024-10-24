@@ -82,6 +82,9 @@ $$1 + 2 * 3$$
 **Tree**
 (Add 1 (MUL 2 3))
 
+> Generalized Linked List로 트리를 나타낼 수 있다.
+{: .prompt-info}
+
 **Code**
 PUSH 1;PUSH 2;PUSH 3; MUL; ADD
 
