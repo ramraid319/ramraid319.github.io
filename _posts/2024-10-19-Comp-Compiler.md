@@ -18,11 +18,13 @@ pin: false
 #### Program vs Process
 
 **Program**: 컴퓨터에서 실행 가능한 Static한 파일
+
 **Process**: 컴퓨터에서 실행중인 Dynamic한 프로그램
 
 #### Programming Language
 
 **Syntax**: 어떤 형식으로 코드를 작성해야 하는지 정의
+
 **Semantics**: 코드가 어떤 의미를 가지는지, 어떤 동작 방식을 가지는지 정의
 
 **Programming Language**: 문법적 규칙과 의미론적 규칙의 집합
@@ -36,7 +38,7 @@ Source Language로 쓰여진 프로그램을 의미적으로 같은 Target Langu
 **Analysis Phase**: 소스코드를 읽고, 정보를 수집, **FRONTEND (machine independent)**
   - **Scanner - 어휘 분석(Lexical Analysis)**: 문자열을 토큰화 시킨다
   - **Parser - 구문 분석(Syntax Analysis)**: 토큰열(Token String)을 구문 트리(Parse Tree)로 작성한다.
-  - **의미 분석(Semantic Analysis)**: 의미있는 Annotated Parse Tree를 작성한다. (e.g. 2 $\rarr$ i2f(2))
+  - **의미 분석(Semantic Analysis)**: 의미있는 Annotated Parse Tree를 작성한다. (e.g. 2 $ \rarr $ i2f(2))
   - **중간 코드 생성(Intermediate Code Generator)**: 중간 코드는 전단부(Frontend)와 후단부(Backend)을 연결해주며, 인터프리터의 경우 중간 코드를 가상 머신에서 실행할 수 있다.
   
 **Synthesis Phase**: 수집한 정보를 바탕으로 목적코드(Target Code)를 작성 **BACKEND(machine dependent)**
@@ -71,7 +73,6 @@ Source Language로 쓰여진 프로그램을 의미적으로 같은 Target Langu
 
 #### Example 0
 
-**Expression**
 $$1 + 2 * 3$$
 
 **Operands and Operators**
@@ -86,8 +87,6 @@ PUSH 1;PUSH 2;PUSH 3; MUL; ADD
 
 #### Example 1
 
-**Expression**
-
 $$0 ? 1 : 3 ? 4 : 5$$
 
 **Operands and Operators**
@@ -100,6 +99,7 @@ $$0 ? 1 : 3 ? 4 : 5$$
 #### Compiler Tools
 
 **Mathmatical tools**: 문법이나 추상 구문에 이용
+
 **Software Development tools**
   - Scanner generators
   - Parser generators
