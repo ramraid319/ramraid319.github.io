@@ -1,7 +1,7 @@
 ---
 title: UE_01 ACharacter Class
 author: ramraid
-date: 2025-01-19 20:30:00 +0800
+date: 2025-01-19 08:30:00 +0800
 categories: [Unreal Engine, Unreal Engine Tutorial]
 tags: [Unreal Engine, Class]
 math: true
