@@ -155,7 +155,7 @@ e.g.
 e.g.
 > < expr > ::= < term > { (+ | -) < term > }*
 
-![SyntaxChart](assets\img\posts\ProgrammingLanguage\PL-Language-Translation-Issues\PL-Language-Translation-Issues-01.png){: width="420" height="209" }
+![SyntaxChart](/assets/img/posts/ProgrammingLanguage/PL-Language-Translation-Issues/PL-Language-Translation-Issues-01.png){: width="420" height="209" }
 
 ## Finite State Automata: DFA와 NFA
 
