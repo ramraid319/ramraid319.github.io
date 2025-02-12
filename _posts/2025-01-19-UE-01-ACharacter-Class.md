@@ -295,7 +295,3 @@ ATutorialGameMode::ATutorialGameMode()
 	}
 }
 ```
-
-## 마무리
-
-우선 간단하게 기본 생성되는 Character 클래스와 GameMode 클래스에 대해 알아보았고, 다음은 디버깅에 필요한 DrawDebugXXX 에 대해 작성하겠다.
