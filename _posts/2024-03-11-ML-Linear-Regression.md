@@ -62,7 +62,7 @@ $$y=w_0x_0 + w_1x_1 + ... + w_mx_m=\sum_{i=0}^{m}w_ix_i=w^Tx$$
 
 Regression은 차원에 관계없이 동일한 방법을 이용한다.
 
-![Hyperplane](assets\img\posts\MachineLearning\ML-Linear-Regression\ML-Linear-Regression-01.png){: width="972" height="589" }
+![Hyperplane](/assets/img/posts/MachineLearning/ML-Linear-Regression/ML-Linear-Regression-01.png){: width="972" height="589" }
 _Hyperplane_
 
 ## TODO

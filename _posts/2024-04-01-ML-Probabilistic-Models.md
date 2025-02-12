@@ -39,18 +39,18 @@ pin: false
 > missing value는 다른 attribute value로 처리된다. ex. {sunny, rainy, MISSING}
 {: .prompt-info }
 
-![Breakpoints](assets\img\posts\MachineLearning\ML-Probabilistic-Models\ML-Probabilistic-Models-01.png){: width="985" height="157" }
+![Breakpoints](/assets/img/posts/MachineLearning/ML-Probabilistic-Models/ML-Probabilistic-Models-01.png){: width="985" height="157" }
 
 - 훈련 데이터를 Numeric value로 정렬, 정렬된 sequence는 braking points로 나뉘어짐
 
 > 같은 value인데 다른 class로 나뉘는 경우? breakpoint를 옮겨 no가 더 많은 mixed partition을 만듦.
 {: .prompt-info }
 
-![NumericAttributes](assets\img\posts\MachineLearning\ML-Probabilistic-Models\ML-Probabilistic-Models-02.png){: width="945" height="156" }
+![NumericAttributes](/assets/img/posts/MachineLearning/ML-Probabilistic-Models/ML-Probabilistic-Models-02.png){: width="945" height="156" }
 
 - 너무 branching를 세세하게 하면, overfitting이 발생한다. overfitting을 피하기 위해서, 각 partition이 minimum number의 majority example을 갖게 해야한다.
 
-![NumericAttributes](assets\img\posts\MachineLearning\ML-Probabilistic-Models\ML-Probabilistic-Models-03.png){: width="940" height="105" }
+![NumericAttributes](/assets/img/posts/MachineLearning/ML-Probabilistic-Models/ML-Probabilistic-Models-03.png){: width="940" height="105" }
 
 - majority class가 같은 partitions는 합칠 수 있다.
 

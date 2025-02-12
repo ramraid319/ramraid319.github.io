@@ -45,7 +45,7 @@ x_{1p}\end{bmatrix}, ..., x_n=\begin{bmatrix}x_{n1}\\
 ...\\
 x_{np}\end{bmatrix}$$
 
-![Hyperplane](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-01.png){: width="972" height="589" }
+![Hyperplane](/assets/img/posts/MachineLearning/ML-Support-Vector-Machine/ML-Support-Vector-Machine-01.png){: width="972" height="589" }
 _Hyperplane_
 
 $$\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_pX_{ip}>0 y_i=1$$
@@ -62,7 +62,7 @@ $$y_i(\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_px_{ip})>0$$
 
 Classify Hyperplane은 무수히 많다. 따라서, Maximal Margin Classifier 을 이용해 가장 적절한 Hyperplane을 찾을 수 있다.
 
-![MaximalMargin](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-02.png){: width="972" height="589" }
+![MaximalMargin](/assets/img/posts/MachineLearning/ML-Support-Vector-Machine/ML-Support-Vector-Machine-02.png){: width="972" height="589" }
 
 하지만 $p$-dimension 이 커지면, overfitting될 수 있다.
 
@@ -78,11 +78,11 @@ $y_i(\beta_0+\beta_1X_{i1}+\beta_2X_{i2}+...+\beta_px_{ip})>M$ for all $i=1,...,
 
 #### The Non-separable Case
 
-![MaximalMargin](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-03.png){: width="972" height="589" }
+![MaximalMargin](/assets/img/posts/MachineLearning/ML-Support-Vector-Machine/ML-Support-Vector-Machine-03.png){: width="972" height="589" }
 
 하지만, Maximal Margin Classifier 로 분류할 수 없는 경우도 있다.
 
-![MaximalMargin](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-04.png){: width="972" height="589" }
+![MaximalMargin](/assets/img/posts/MachineLearning/ML-Support-Vector-Machine/ML-Support-Vector-Machine-04.png){: width="972" height="589" }
 
 또는, 한 개의 관측값이 Hyperplane 을 극단적으로 변화시킬 수 있다.
 
@@ -117,7 +117,7 @@ $\epsilon_i>1$이면, hyperplane의 wrong side에 있다고 말한다.
 
 $C>0$ 이면, $C$ 이상의 관측값은 hyperplane의 wrong side에 위치할 수 없다.
 
-![SVClassifier](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-05.png){: width="972" height="589" }
+![SVClassifier](/assets/img/posts/MachineLearning/ML-Support-Vector-Machine/ML-Support-Vector-Machine-05.png){: width="972" height="589" }
 
 서로 다른 *tuning parameter* $C$ 에 fitting된 Support Vector Classifier
 
@@ -173,7 +173,7 @@ $$K(x_i, x_{i'})=\beta_0 + \sum_{i\epsilon S}\alpha_iK(x,x_i)$$
 
 위와 같이 non-linear kernel과 결합된 support vector classifier를 support vector machine이라고 한다.
 
-![non-linear](assets\img\posts\MachineLearning\ML-Support-Vector-Machine\ML-Support-Vector-Machine-06.png){: width="972" height="589" }
+![non-linear](/assets/img/posts/MachineLearning/ML-Support-Vector-Machine/ML-Support-Vector-Machine-06.png){: width="972" height="589" }
 
 > Support Vector 은 margin에 걸쳐있는 것들이다.
 {: .prompt-info }
