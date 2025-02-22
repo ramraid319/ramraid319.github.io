@@ -1,5 +1,5 @@
 ---
-title: "Ray Tracing"
+title: "[CG] Ray Tracing"
 author: ramraid
 date: 2024-11-16 20:30:00 +0800
 categories: [Computer Graphics, Ray Tracing]
