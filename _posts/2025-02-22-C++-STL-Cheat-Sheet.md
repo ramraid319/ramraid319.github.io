@@ -72,6 +72,29 @@ vec.clear();     // return (void)      "모든 요소 제거" O(n)
 
 #### List
 
+```cpp
+// 리스트 선언
+list <data_type> list_name;
+```
+
+```cpp
+list_name.begin(); // return (iterator)  "첫 번째 요소" O(1)
+list_name.end();   // return (iterator)  "마지막 요소 **바로 뒤**" O(1)
+list_name.size();  // return (size_type)       "현재 element의 수" O(1)
+list_name.empty(); // return (bool)      "비어있는가?" O(1)
+list_name.push_front(); // return (void)  "vector의 맨 앞에 새로운 요소 삽입" O(1)
+list_name.push_back(); // return (void)  "vector의 맨 뒤에 새로운 요소 삽입" O(1)
+list_name.pop_front();  // return (void) "vector의 맨 앞 요소 제거" O(1)
+list_name.pop_back();  // return (void) "vector의 맨 뒤 요소 제거" O(1)
+list_name.insert();    // return (iterator)  "특정 위치에 element 삽입" O(n)
+list_name.erase();     // return (iterator)  "특정 위치 혹은 범위의 요소 삭제" O(n)
+list_name.clear();     // return (void)      "모든 요소 제거" O(n)
+list_name.remove();    // return (void)      "해당하는 요소를 제거" O(n)
+    list_name.remove_if();    // return (void)      "람다식도 활용 가능" O(n)
+```
+
+## TODO
+
 #### Deque
 
 #### Array
