@@ -2,7 +2,7 @@
 title: "[C++] STL Cheat Sheet"
 author: ramraid
 date: 2025-02-22 08:30:00 +0800
-categories: [Programming, Modern Programming, STL]
+categories: [Programming, C++, Modern Programming, STL]
 tags: [Programming, C++, Modern Programming, STL]
 math: true
 # image:

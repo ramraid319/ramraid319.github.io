@@ -2,7 +2,7 @@
 title: "[C++] Rotate"
 author: ramraid
 date: 2025-02-22 10:30:00 +0800
-categories: [Programming, Modern Programming, STL]
+categories: [Programming, C++, Modern Programming, STL]
 tags: [Programming, C++, Modern Programming, STL]
 math: true
 render_with_liquid: false
