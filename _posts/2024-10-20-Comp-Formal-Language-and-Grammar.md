@@ -2,7 +2,7 @@
 title: "[Comp] Formal Language and Grammar"
 author: ramraid
 date: 2024-10-20 20:00:00 +0800
-categories: [Compiler]
+categories: [Computer Science, Compiler]
 tags: [Compiler]
 toc: true
 comments: true

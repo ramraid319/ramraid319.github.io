@@ -2,7 +2,7 @@
 title: "[Comp] Compiler"
 author: ramraid
 date: 2024-10-19 20:00:00 +0800
-categories: [Compiler]
+categories: [Computer Science, Compiler]
 tags: [Compiler]
 toc: true
 comments: true

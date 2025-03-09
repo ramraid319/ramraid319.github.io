@@ -2,8 +2,8 @@
 title: "[Unreal Engine 5] Delegates"
 author: ramraid
 date: 2025-02-22 10:30:00 +0800
-categories: [Programming, C++, Modern Programming, Unreal Engine]
-tags: [Programming, C++, Modern Programming, Unreal Engine]
+categories: [Unreal Engine, Programming]
+tags: [Unreal Engine, Components, Programming, C++]
 math: false
 render_with_liquid: true
 pin: false

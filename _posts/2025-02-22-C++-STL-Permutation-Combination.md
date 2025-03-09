@@ -2,7 +2,7 @@
 title: "[C++] Permutation and Combination"
 author: ramraid
 date: 2025-02-22 09:30:00 +0800
-categories: [Programming, C++, Modern Programming, STL]
+categories: [C++, Modern Programming]
 tags: [Programming, C++, Modern Programming, STL]
 math: true
 render_with_liquid: false
