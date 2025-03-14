@@ -53,4 +53,4 @@ enum class ECharacterState : uint8 {
 
 [Enumeration declaration](https://en.cppreference.com/w/cpp/language/enum)
 
-[Multi-cast Delegates](https://dev.epicgames.com/documentation/en-us/unreal-engine/multicast-delegates-in-unreal-engine)
+[Creating Enums in C++](https://forums.unrealengine.com/t/creating-enums-in-c/465555)
