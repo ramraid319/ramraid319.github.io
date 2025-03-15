@@ -1,7 +1,7 @@
 ---
 title: "[C++] Delegates"
 author: ramraid
-date: 2025-02-22 10:30:00 +0800
+date: 2025-03-05 10:30:00 +0800
 categories: [C++, Modern Programming]
 tags: [Programming, C++, Modern Programming, STL]
 math: false

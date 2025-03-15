@@ -1,7 +1,7 @@
 ---
 title: "[Unreal Engine 5] Delegates"
 author: ramraid
-date: 2025-02-22 10:30:00 +0800
+date: 2025-03-06 10:30:00 +0800
 categories: [Unreal Engine, Programming]
 tags: [Unreal Engine, Components, Programming, C++]
 math: false
