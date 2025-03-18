@@ -25,6 +25,7 @@ Blend in/out 기능을 가지고있어, 매번 새로운 Blendspace를 필요로
 2. `플레이어 input`, `AI Event` 등 특정 상황에서 애니메이션 실행 가능
 3. `Section & Branching` : 특정 입력에 따라 다른 섹션으로 이동하는 Branching 설정
 4. `Blend In & Blend Out` : 애니메이션의 시작/끝에서 기존/다음 애니메이션과 얼마나 부드럽게 Blend되는지 설정
+5. `AnimNotify`를 이용해 함수나 사운드의 실행 시점을 설정
 
 ## Example
 
