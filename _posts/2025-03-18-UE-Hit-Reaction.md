@@ -24,7 +24,7 @@ image:
 
 `HitDirection = ImpactPoint - GetActorLocation()`
 
-으로 HitDirection의 벡터를 구할 수 있고, normal vector라는 전제 하에,
+으로 HitDirection의 벡터를 구할 수 있고, unit vector라는 전제 하에,
 
 $$HitDirection · ForwardDirection = \cos{\theta}$$
 
