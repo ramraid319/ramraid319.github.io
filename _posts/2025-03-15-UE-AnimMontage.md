@@ -2,7 +2,7 @@
 title: "[Unreal Engine 5] AnimMontage"
 author: ramraid
 date: 2025-03-15 10:30:00 +0800
-categories: [Unreal Engine, Component]
+categories: [Unreal Engine, Components]
 tags: [Unreal Engine, Components, Programming, C++]
 math: false
 render_with_liquid: true
