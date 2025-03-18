@@ -8,7 +8,7 @@ math: false
 render_with_liquid: true
 pin: false
 image:
-    path: ../assets/img/posts/UnrealEngine/2025-03-16-UE-MetaSound-01.png
+    path: ../assets/img/posts/UnrealEngine/2025-03-16-UE-Sound-Attenuation-01.png
     alt: MetaSound
 ---
 
@@ -22,7 +22,7 @@ image:
 
 ### Example
 
-![MetaSounds](../assets/img/posts/UnrealEngine/2025-03-16-UE-MetaSound-02.png)
+![MetaSounds](../assets/img/posts/UnrealEngine/2025-03-16-UE-Sound-Attenuation-02.png)
 
 WaveAsset Array에서 랜덤 효과음을 재생하는 MetaSound
 
@@ -38,7 +38,7 @@ UGameplayStatics::PlaySoundAtLocation(this, HitSound, ImpactPoint);
 
 Sound Attenuation (소리 감쇠) 이 없어서 그렇다.
 
-![MetaSounds](../assets/img/posts/UnrealEngine/2025-03-16-UE-MetaSound-03.png)
+![MetaSounds](../assets/img/posts/UnrealEngine/2025-03-16-UE-Sound-Attenuation-03.png)
 
 Sound Attenuation 에셋을 만들고, MetaSound의 Source - Details 에서 선택하면 된다.
 
