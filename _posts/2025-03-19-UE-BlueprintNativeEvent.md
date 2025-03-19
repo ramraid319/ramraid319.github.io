@@ -84,7 +84,7 @@ IOpenHitInterface::Execute_GetHit(MyActor, FVector(100.f, 100.f, 100.f));
 
 ![GetHit in Blueprint](../assets/img/posts/UnrealEngine/2025-03-19-UE-BlueprintNativeEvent-01.png)
 
-좌측 우측 `Parent:GetHit`은 C++ 버전의 GetHit이다!
+우측 `Parent:GetHit`은 C++ 버전의 GetHit이다!
 
 ## Reference
 
