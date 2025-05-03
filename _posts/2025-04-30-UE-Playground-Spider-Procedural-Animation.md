@@ -14,4 +14,4 @@ pin: false
 
 ## Overview
 
-{% youtube Cg1jqtq0ty8 800 600 %}
+<iframe width="800" height="600" src="https://www.youtube.com/embed/Cg1jqtq0ty8" frameborder="0" allowfullscreen="1"></iframe>
